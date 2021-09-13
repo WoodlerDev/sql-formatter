@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0-rc.2",
+  "version": "4.1.1",
   "name": "@woodler/sql-formatter",
   "description": "Format whitespace in a SQL query to make it more readable",
   "license": "MIT",
