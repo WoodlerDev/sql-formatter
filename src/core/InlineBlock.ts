@@ -12,7 +12,7 @@ export default class InlineBlock {
   level: number;
   lineWidth: number;
 
-  constructor(lineWidth: number) {
+  constructor(lineWidth: number = 50) {
     this.level = 0;
     this.lineWidth = lineWidth;
   }
