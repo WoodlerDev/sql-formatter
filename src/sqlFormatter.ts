@@ -31,13 +31,13 @@ export interface NewlineOptions {
 }
 
 export interface FormatOptions {
-  language: keyof typeof formatters;
+  language?: keyof typeof formatters;
   params?: ParamItems | string[];
-  indent: string;
-  uppercase: boolean;
-  newline: NewlineOptions;
-  lineWidth: number;
-  linesBetweenQueries: number;
+  indent?: string;
+  uppercase?: boolean;
+  newline?: NewlineOptions;
+  lineWidth?: number;
+  linesBetweenQueries?: number;
 }
 /**
  * Format whitespace in a query to make it easier to read.
