@@ -1,7 +1,8 @@
-# SQL Formatter [![NPM version](https://img.shields.io/npm/v/sql-formatter.svg)](https://npmjs.com/package/sql-formatter) [![Build Status](https://travis-ci.org/zeroturnaround/sql-formatter.svg?branch=master)](https://travis-ci.org/zeroturnaround/sql-formatter) [![Coverage Status](https://coveralls.io/repos/github/zeroturnaround/sql-formatter/badge.svg?branch=master)](https://coveralls.io/github/zeroturnaround/sql-formatter?branch=master)
+# SQL Formatter
+
+[![NPM version](https://badge.fury.io/js/@woodler%2Fsql-formatter.svg)](https://npmjs.com/package/sql-formatter) [![Build Status](https://travis-ci.com/WoodlerDev/sql-formatter.svg?branch=master)](https://travis-ci.com/WoodlerDev/sql-formatter.svg) [![Coverage Status](https://coveralls.io/repos/github/WoodlerDev/sql-formatter/badge.svg?branch=master)](https://coveralls.io/github/zeroturnaround/sql-formatter?branch=master)
 
 **SQL Formatter** is a JavaScript library for pretty-printing SQL queries.
-It started as a port of a [PHP Library][], but has since considerably diverged.
 
 SQL formatter supports the following dialects:
 
@@ -21,14 +22,14 @@ It does not support:
 - Stored procedures.
 - Changing of the delimiter type to something else than `;`.
 
-&rarr; [Try the demo.](https://zeroturnaround.github.io/sql-formatter/)
+&rarr; [Try the demo.](https://woodlerdev.github.io/sql-formatter/)
 
 ## Install
 
-Get the latest version from NPM:
+Get the latest version from Yarn:
 
 ```sh
-npm install sql-formatter
+yarn install @woodler/sql-formatter
 ```
 
 ## Usage as library
@@ -133,9 +134,9 @@ WHERE
   id = 3
 ```
 
-## Usage without NPM
+## Usage without NPM/Yarn
 
-If you don't use a module bundler, clone the repository, run `npm install` and grab a file from `/dist` directory to use inside a `<script>` tag.
+If you don't use a module bundler, clone the repository, run `yarn install` and grab a file from `/dist` directory to use inside a `<script>` tag.
 This makes SQL Formatter available as a global variable `window.sqlFormatter`.
 
 ## Contributing
@@ -143,14 +144,14 @@ This makes SQL Formatter available as a global variable `window.sqlFormatter`.
 Make sure to run all checks:
 
 ```sh
-npm run check
+yarn check
 ```
 
 ...and you're ready to poke us with a pull request.
 
 ## License
 
-[MIT](https://github.com/zeroturnaround/sql-formatter/blob/master/LICENSE)
+[MIT](https://github.com/WoodlerDev/sql-formatter/blob/master/LICENSE)
 
 [php library]: https://github.com/jdorn/sql-formatter
 [standard sql]: https://en.wikipedia.org/wiki/SQL:2011
